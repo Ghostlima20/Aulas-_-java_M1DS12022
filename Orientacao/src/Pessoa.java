@@ -7,24 +7,25 @@ public class Pessoa {
 		this.numFigurinhas += numFigurinhas;
 	}
 
-	boolean dar(int numFigurinhas,  Pessoa pessoa) {
-        
-		boolean msg; 
-		
-		this.numFigurinhas -= numFigurinhas;
+	boolean dar(int numFigurinhas, Pessoa pessoa) {
+		// boolean retorno;
 
-		pessoa.receber(numFigurinhas);
-		
-		if(this.numFigurinhas< numFigurinhas) {
-			System.out.println(" O numero de figurinhas insulficiente");
-			msg = false;
-				
-		} else {
+		if (this.numFigurinhas < numFigurinhas) {
+			System.out.println("A quantidade de figurinhas nao e sufuciente");
+			// retono = false;
+			return false;
+
+		}
+
+		else {
 			this.numFigurinhas -= numFigurinhas;
 			pessoa.receber(numFigurinhas);
-			msg = true;
+			// retorno = true;
+			return true;
+
 		}
-	      return  msg;	
+
+		// return retorno;
+
 	}
-	
 }
