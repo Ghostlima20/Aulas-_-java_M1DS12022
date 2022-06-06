@@ -3,9 +3,9 @@ public class Anotacoes {
 //Objeto = memoria heap
 //Atributo = stack
 
-//Casting explicito = forçar uma variavel a ser de um determinado tipo	
+//Casting explicito = obrigar a variavel a tornar o tipo desejado.
 // Polimorfismo
-//Classe virtual (abstrata ou genérico demais) = não há necessidade de digitar código
+//Classe virtual (abstrata ou genÃ©rico demais) = nÃ£o hÃ¡ necessidade de digitar cÃ³digo
 
 //List = Interface
 //ArrayList = implementa a list (Classe da object)
