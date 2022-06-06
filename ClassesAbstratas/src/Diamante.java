@@ -1,9 +1,9 @@
-// A classe diamante extende de Item, que e uma classe generica 
+// A classe diamante e uma extençao de Item, que e uma classe generica 
 public class Diamante extends Item{
 
-	//Nesse caso foi pego o metodo pegar da classe item e ele foi sobrescrevido a fim de se adequar as necessidadese especificas dessa classe
+	// o metodo foi ultilizado para pegar da classe item, e ele foi sobrescrevido para que possa se adequar as necessidadese especificas dessa classe
 	@Override
 	public void pegar() {
-		System.out.println("Pegou Diamante");
+		System.out.println("Pegou Diamante"); // mesnagem mostrada ao usuario.
 	}
 }
