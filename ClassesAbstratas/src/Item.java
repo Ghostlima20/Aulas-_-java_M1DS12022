@@ -1,4 +1,4 @@
-// Item e uma classe abstrata, portanto, seus metodos sao genericos e vao ser melhor definidos pelas classes que extenderem dela
+// classe abstrada ela sera melhor comprrendida apos a extensao.
 public abstract class Item {
 	// Atribuindo variaveis
 	private int posX;
@@ -8,7 +8,7 @@ public abstract class Item {
 	public abstract void pegar();
 	
 	
-	// Getters e setters das variaveis que serao utilizadas para pegar e atribuir valores futuramente
+	// Getters e setters das variaveis que ira ser utilizadas para pegar e atribuir valores futuramente.
 	public int getPosX() {
 		return posX;
 	}
