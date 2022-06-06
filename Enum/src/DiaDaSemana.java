@@ -1,15 +1,15 @@
 
-public enum DiaDaSemana {
+public enum DiaDaSemana { // criando uma lista
 
-	DOMINGO(1),SEGUNDA(2),TERCA(3),QUARTA(4),QUINTA(5),SEXTA(6),SABADO(7); //criaçao de objeto
+	DOMINGO(1),SEGUNDA(2),TERCA(3),QUARTA(4),QUINTA(5),SEXTA(6),SABADO(7); //criaÃ§ao de objeto
 	
-	private int num; // criaçao de atributo privado//atributos apenas visiveis para DiaDaSemana
+	private int num; // criaÃ§ao de atributo privado//atributos apenas visiveis para DiaDaSemana
 
-	private DiaDaSemana(int num)  {//criaçao de construtor
+	private DiaDaSemana(int num)  {//criaÃ§ao de construtor
 		this.num = num;
 	}
 
-	public int getNum() {// criaçao de construtor para visualizar os atributos privados.
+	public int getNum() {// criaÃ§ao de construtor para visualizar os atributos privados.
 		return num;
 	}
 	
