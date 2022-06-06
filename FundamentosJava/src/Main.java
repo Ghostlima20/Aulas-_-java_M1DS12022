@@ -14,12 +14,11 @@ public class Main {
 
 		short z = (short) 100000;
 		
-		// Casting implicit - No casting explicito eu forco uma variavel a ser de um tipo. Nesse caso y e double mas eu forcei a virar int, assim ele vai 
-		// perder tudo o que esta depois da virgula, porque o tipo int suporta apenas numero inteiros
+		// Casting implicit -ira forçar para que a variavel possar mudar o tipo. 
+		// apaga o que esta depois da virgula, porque o tipo int suporta apenas numero inteiros
 		a = (int) y;
 		
-		// Nesse caso nao foi necessario fazer casting explicito, porque a variavel b e double e x e int. Assim, ao converter o numero nao ira perder nenhum 
-		// valor, sera apenas acrescentado um valor depois da virgula
+		//foi realizado  um  casting explicito, porque a variavel b e double e x e int.
 		b = x;
 
 		System.out.println(a);
@@ -32,16 +31,13 @@ public class Main {
 		
 		int idadePessoa = 60;
 		
-		// A clausula if serve para indicar um condicao. Ou seja, se a variavel receber um valor age de uma forma, se receber outro age de outra forma
-		// Aqui, se a variavel idadePessoa for maior que 18, ele vai poder beber, se for menor de 18 não pode beber e se tiver mais de 60 anos tambem
-		// nao vai poder
+		// if condiçao
+		
 		if (idadePessoa < 18) {
 			System.out.println("Você não pode beber!");
-		} /* O else serve para indicar o que o codigo vai fazer caso nao atenda a condicao do if, e nesse caso foi usado else if, ou seja, se nao atender a
-		primeira condicao, vai fazer outro if */
-		else if (idadePessoa >= 60) {
+			else if (idadePessoa >= 60) {
 			System.out.println("Você é muito velho! Pare de beber!");
-		} // Aqui foi usado outro else, pois na ha mais condicoes para serem analisadas
+		} 
 		else {
 			System.out.println("Você pode beber!");
 		}
@@ -50,17 +46,15 @@ public class Main {
 		System.out.println("Você tem " + idadePessoa + " anos \n");
 		
 		//----------------------------------------------------------------------------------------------------//
-		//Switch
+
 		
 		int dia = 10;
-		// O Switch case tambem e uma estrutura para tomada de decisoes
-		// Ele vai passar por cada caso disponivel e executar o codigo que atende a condicao pedida
-		// Nesse teste cada dia da semana representa um numero e dependo do que o usario digitar, e mostrada uma mensagem na tela indicando o dia escolhido
+		
 		switch (dia) {
-		// Case indica o caso que esta sendo analisado
+		
 		case 1:
 			System.out.println("Hoje é domingo");
-			// O break serve para ele parar de executar o switch ali mesmo quando o caso e verdadeiro, a fim de otimizar o codigo
+			
 			break;
 		case 2:
 			System.out.println("Hoje é segunda-feira");
@@ -80,12 +74,11 @@ public class Main {
 		case 7:
 			System.out.println("Hoje é sábado");
 			break;
-		// O deafult serve para indicar o que fazer quando nenhum caso atende a condicao imposta
+	
 		default:
 			System.out.println("Esse dia não existe! Tá maluco pô");
 		}
 		
-		// Outro exemplo de Swith case com letras do alfabeto
 		char caractere = '2';
 		
 		switch(caractere) {
@@ -101,7 +94,7 @@ public class Main {
 		
 		
 		
-		// Outro exemplo de Swith case com =sinais de transito
+		
 		String farol = "Laranja";
 		
 		switch(farol) {
@@ -118,8 +111,7 @@ public class Main {
 			System.out.println("Que cor é essa ai? Conheço não");
 		}
 
-		//----------------------------------------------------------------------------------------------------//
-		// While
+		
 		
 		int x = 0;
 		// O while e um laco de repeticao. Serve para indicar que enquanto uma condicao for verdadeiro ele executara um codigo
