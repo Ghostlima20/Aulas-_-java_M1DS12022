@@ -2,7 +2,7 @@
 public class Calculadora2 {
 
 	public static void main(String[] args) {
-		// Declarando variaveis
+		// expondo as variaveis
 		double n1=10;
 		double n2=3;
 		double resultSoma;
@@ -10,7 +10,7 @@ public class Calculadora2 {
 		double resultMult;
 		double resultDiv;
 		
-		// Atribuindo contas as variaveis criadas
+		// mostra as contas e variaveis criadas
 		resultSoma = n1+n2;
 		System.out.println("A soma é: " + resultSoma);
 		
