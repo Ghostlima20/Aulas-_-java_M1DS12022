@@ -1,15 +1,15 @@
-// A classe circunferencia implementa AreaCalculavel, pois os metodos dela se aplicam a essa
+// A classe circunferencia implementa AreaCalculavel
 public class Circunferencia implements AreaCalculavel{
 	// Declarando variaveis
 	double r;
 	
-	// O metodo calcularArea foi sobrescrito a fim de passar um calculo que se aplica apenas a classe cincunferencia
+	// O metodo calcularArea foi sobrescrito para passar os dados.
 	@Override
 	public double calcularArea() {
 		return r*r*Math.PI;
 	}
 
-	// Aqui e um metodo para imprimir a area na tela
+	// ira apresentar o resultado ao usuario.
 	public void mostrarArea() {
 		System.out.println("A área da Cinfureręncia é " + calcularArea() + " m2");
 	}
