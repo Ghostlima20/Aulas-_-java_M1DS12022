@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // importando o pacote scanner.
 
 public class LampadaMain {
 
@@ -8,8 +8,8 @@ public class LampadaMain {
 		int criar = 0;
 		int estado = 0;
 
-		System.out.println("Ol· seja bem-vindo ao nosso sistema de criaÁ„o de l‚mpadas \n");
-		System.out.println("Pressione 1 para criar uma l‚mpada");
+		System.out.println("Ol√° seja bem-vindo ao nosso sistema de cria√ß√£o de l√¢mpadas \n");
+		System.out.println("Pressione 1 para criar uma l√¢mpada");
 		criar = entrada.nextInt();
 		if (criar != 1) {
 			System.out.println("Obrigado por usar nosso sistema");
@@ -18,8 +18,8 @@ public class LampadaMain {
 
 			Lampada lampada = new Lampada(true);
 
-			System.out.println("Quando a l‚mpada È criada, ela j· vem acesa");
-			System.out.println("Deseja mudar o estado da l‚mpada? 1- Sim  2-N„o\n");
+			System.out.println("Quando a l√¢mpada √© criada, ela j√° vem acesa");
+			System.out.println("Deseja mudar o estado da l√¢mpada? 1- Sim  2-N√£o\n");
 			estado = entrada.nextInt();
 			if (estado != 1) {
 				lampada.imprimir();
