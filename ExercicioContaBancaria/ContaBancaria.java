@@ -1,7 +1,7 @@
 
 public abstract class ContaBancaria {
 
-	protected static double saldo = 1000;
+	protected static double saldo = 1000; // MODIFICADOR DE ACESSO AO METODO.
 
 	public static double getSaldo() {
 		return saldo;
