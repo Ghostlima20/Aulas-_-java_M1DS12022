@@ -48,10 +48,7 @@ public class Main {
 		
 		
 		
-		
-//		String s = "Texto para ser gravado \n no arquivo eeeeeee";
-//		FILEWRITER aponta o arquivo no computador
-//		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) {
+		// try (BufferedWriter escrever = new BufferedWriter(new FileWriter("saida.txt"))) {
 //			escrever.write(s);
 //		}
 	}
