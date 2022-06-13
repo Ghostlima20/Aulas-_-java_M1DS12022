@@ -1,7 +1,7 @@
 
 public class Matematica {
 	// treinar o conceito de sobrecarga
-	// Nesse primeiro metodo chamado area, foi declarado que ele é um double e que irá calcular a área de um triângulo ao receber double x e y
+	// metodo chamado area, ele é um double e que irá calcular a área de um triângulo ao receber double x e y
 	double area(double x, double y) {
 		return x * y / 2;
 		System.out.println("A área do seu triângulo é:" + area);
