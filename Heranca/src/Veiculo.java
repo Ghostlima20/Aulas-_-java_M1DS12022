@@ -1,14 +1,14 @@
-// A classe veiculo vai ser a classe pai de outras classes pois ela tem metodos e atributos que se aplicam a todos
+// A classe veiculo vai ser a classe pai 
 public class Veiculo {
 	// Criando atributos
 	private String nome;
-	protected String marca; // protected permite que a classe filha veja esse atributo
+	protected String marca; // protected permite que a classe filha veja esse atributo protegidos
 	protected String modelo;
 	protected int ano;
 	
 	// Metodo buzinar
 	public void Buzinar() {
-		System.out.println("BI BI");
+		System.out.println("chama");
 	}
 	
 	// Metodo imprimir as informacoes
