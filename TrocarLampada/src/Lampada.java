@@ -3,7 +3,7 @@ public class Lampada {
 
 	public static void main(String[] args) {
 		//Projeto para testar o comando System.out.println
-		System.out.println("Hello World, Olá Mundo, Hola Mundo");
+		System.out.println("Salve !!  Olá Mundo, Tranks?");
 		System.out.println("----------------------------------");
 		System.out.println("Pegar a lâmpada");
 		System.out.println("Pegar a escada");
