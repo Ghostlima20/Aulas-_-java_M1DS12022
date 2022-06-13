@@ -4,16 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// Editado o perfil Pedro
+		// Editado o perfil webson
 		Pessoa pessoa1 = new Pessoa();
-		pessoa1.nome = "Pedro";
+		pessoa1.nome = "webson";
 		pessoa1.numFigurinhas = 20;
 		pessoa1.x = 1;
 		System.out.println("Número de figurinhas iniciais do Pedro: " + pessoa1.numFigurinhas);
 
-		// Editando o perfil Jorge
+		// Editando o perfil Irineu
 		Pessoa pessoa2 = new Pessoa();
-		pessoa2.nome = "Jorge";
+		pessoa2.nome = "Irineu";
 		pessoa2.numFigurinhas = 20;
 		System.out.println("Número de figurinhas iniciais do Jorge: " + pessoa2.numFigurinhas + "\n");
 
