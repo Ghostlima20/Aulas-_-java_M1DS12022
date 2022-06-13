@@ -15,9 +15,9 @@ public class Pessoa {
 	
 	// Metodo que da as figurinhas
 	void Dar(int numFigurinhas, Pessoa pessoa) {	
-		// Condicao if para impedir que o usuario dê mais figurinhas do que possui
+		// Condicao if para proibir que o usuario dê mais figurinhas do que possui
 		if(this.numFigurinhas < numFigurinhas) {
-			System.out.println("Você não pode trocar, pois não possui a quantidade necessária de figurinhas \n");
+			System.out.println("Miseria Você não pode trocar, pois não possui a quantidade necessária de figurinhas \n");
 			x=2;
 		}else {
 		this.numFigurinhas -= numFigurinhas;
