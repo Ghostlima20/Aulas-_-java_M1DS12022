@@ -1,8 +1,8 @@
-// Moto tambem extende de veiculo
+// Moto extende de veiculo
 public class Moto extends Veiculo {
-	// Aqui tem um metodo a mais que o de empinar
+	// Aqui tem um metodo olha nos de nave novinha
 	public void empinar(){
-		// Mensagem verdadeira, peco perdao pela sinceridade
-		System.out.println("EMPINAR É COISA DE OTÁRIO");
+		// Mensagem para usuario visualizar
+		System.out.println("SOBE AI NA NAVE NOVINHA");
 	}
 }
